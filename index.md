@@ -8,7 +8,7 @@ nav_order: 1
 
 **Batch Split PDFs** is a Windows desktop app by [3thousand30](https://3thousand30.com) for splitting a PDF into individual pages or fixed-size chunks — saved as separate files in an output folder.
 
-[Get it on Microsoft Store](https://apps.microsoft.com/detail/PLACEHOLDER){: .btn .btn-blue }
+[Get it on Microsoft Store](https://apps.microsoft.com/detail/9MZKRHK6NRRS){: .btn .btn-blue }
 
 Select a PDF. Choose pages per file. Split. Done.
 
