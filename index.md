@@ -16,10 +16,10 @@ Select a PDF. Choose pages per file. Split. Done.
 
 ## How it works
 
-1. **Select a PDF** — pick the PDF file you want to split
+1. **Select a PDF, or a whole folder of PDFs** — split one file, or batch-split every PDF in a folder (optionally including subfolders) in a single run
 2. **Choose pages per file** — set to `1` to get one file per page, or `N` to group every N pages into one file
-3. **Choose an output folder** — split files are saved here, named after the source PDF
-4. **Split** — the app processes the PDF page by page and writes the output files
+3. **Choose an output folder** — split files are saved here, named after each source PDF
+4. **Split** — the app processes the PDF(s) page by page and writes the output files
 
 All processing happens locally on your machine. Your files are not uploaded anywhere.
 
@@ -29,6 +29,7 @@ All processing happens locally on your machine. Your files are not uploaded anyw
 
 - **Page-by-page split** — extract every page as its own PDF
 - **Chunk split** — group every N pages into one file (e.g. split a 100-page PDF into 10-page sections)
+- **Batch folder mode** — split every PDF in a folder in one run, with an option to include subfolders
 - **Auto naming** — output files are named `document_001.pdf`, `document_002.pdf`, and so on
 - **Live preview** — see the exact number of output files before you split
 - **Skip existing** — optionally skip chunks that already exist in the output folder

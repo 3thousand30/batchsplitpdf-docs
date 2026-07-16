@@ -26,6 +26,12 @@ Common issues and how to fix them.
 
 ---
 
+## Splitting a folder: some files failed but others worked
+
+In **Folder of PDFs** mode, a file that fails to load or split (for example, a password-protected PDF) doesn't stop the batch — the app skips it and keeps going. Check the finishing summary for the list of failed files, fix or remove them, and rerun with **Skip files that already exist** checked to avoid re-processing what already succeeded.
+
+---
+
 ## Output files are in the wrong order
 
 Output files are named with zero-padded numbers (`001`, `002`, …) so they sort correctly alphabetically in Windows Explorer. If files appear out of order, check that your file explorer is sorting by **Name** (not by date or size).

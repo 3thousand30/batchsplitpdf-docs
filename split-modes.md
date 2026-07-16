@@ -70,4 +70,15 @@ Zero-padding ensures files sort correctly in filename order in Windows Explorer.
 
 ## Live preview
 
-Before splitting, the app shows a live count of how many files will be created based on the current **Pages per file** setting and the total page count. This updates as you change the setting so you can experiment before committing.
+Before splitting, the app shows a live count of how many files will be created based on the current **Pages per file** setting and the total page count. This updates as you change the setting so you can experiment before committing. Live preview is available in **Single PDF** mode; in **Folder of PDFs** mode the app instead shows how many PDF files were found in the folder.
+
+---
+
+## Splitting a folder of PDFs
+
+Switch to **Folder of PDFs** mode to split every PDF in a folder in one run, using the same **Pages per file** setting for all of them. Check **Include subfolders** to also process PDFs nested in subfolders of the selected folder.
+
+- All output files, from every source PDF, are written into the single output folder you choose — there are no per-source subfolders.
+- If two source PDFs share the same filename (for example, two files both named `report.pdf` found in different subfolders), the app appends a number to one of their output stems (`report_2_001.pdf`) so their outputs don't collide.
+- A source PDF that fails to load or split (for example, if it's password-protected) doesn't stop the run — the app skips it, keeps processing the rest of the folder, and lists which files failed once it finishes.
+- The finishing summary reports total PDFs processed, total files written, and total pages split across the whole folder.
